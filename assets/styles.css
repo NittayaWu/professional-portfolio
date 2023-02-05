@@ -5,8 +5,13 @@
 }
 
   body{
-    background-color: #c2a1e0;
+    background-color: #7837b4;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .main{
+    display:flex;
+    flex-direction: column;
   }
 
   .header{
@@ -17,6 +22,18 @@ padding:40px;
     
   
   }
+
+  footer{
+    
+padding:40px;
+background-color: gray;
+color:white
+
+
+  }
+
+
+
   h1{
     font-size: 50px;
     text-align: left;
@@ -56,9 +73,9 @@ height: 600px;
   }
 
   .image-overlay{
-    width:75%
+    width:1000px;
  
-  background-color:rgb(64 38 113);
+
   display:flex;
   justify-content: center;
  
@@ -66,6 +83,8 @@ height: 600px;
   font-size: 25px;
   padding:50px;
   margin-top:100px;
+  margin-left: 400px;
+  position: absolute;
   
 
   }
@@ -86,16 +105,63 @@ height: 600px;
 
   }
 
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  #work{
+    text-align: center;
+    font-size: 40px;
+    color:white;
   }
 
-  .column {
-    display: flex;
-    flex-direction: column
-  }
- 
+ .box-wrapper{
+  margin-top: 600px;
+  width: 100%;
+  border: black 5px solid;
+display:flex
+flex-direction: row;
+flex-wrap:wrap;
+align-content:center;
 
+
+ }
+
+ .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: black 5px solid;
+  padding:50px;
+  justify-content: space-around;
+ }
+
+
+.project{
+  border: black 5px solid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position:relative;
+  transition: transform .2s; /* Animation */
+  */
+}
+.project:hover{
+  transform: scale(1.5);
+}
+.img-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   /* width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  */
+
+}
+h2{
+  text-align: center;
+  color:white;
+}
+
+@media (max-width: 800px)
+  .box-wrapper{
+    flex-direction: column;
+  }
  
