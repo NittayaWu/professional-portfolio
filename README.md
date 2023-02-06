@@ -21,5 +21,8 @@ Deployed page:
 
 
 
-Link to deployed GitPage:
+
+
+
+Link to deployed GitPage:https://nittayawu.github.io/professional-portfolio/
 
