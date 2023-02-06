@@ -18,7 +18,6 @@ Placeholder Images in the 'Work' section of the application was provided by GitL
 
 
 Deployed page:
-(https://user-images.githubusercontent.com/121972113/217024570-e89a59be-54dc-4144-b513-90f2f2d57975.png)
 
 
 
