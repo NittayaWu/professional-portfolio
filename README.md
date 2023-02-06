@@ -9,7 +9,12 @@ The 'Contact' section in the footer navigation bar contains links to my personal
 
 Credit: 
 
-Background image in the 'About Me" section of the application was provided by Getty Images/iStockphoto, Creator: holwichaikawee.
+Background image in the 'About Me" section of the application was provided by Getty Images/iStockphoto, Creator: holwichaikawee. 
+
+Placeholder Images in the 'Work' section of the application was provided by GitLab account CONN-VIRT-FSF-PT-01-2023-U-LOLC, in the folders: 01-HTML-Git-CSS/01-Activities/22-Stu_Mini-Project/Main/assets/images.
+
+
+
 
 
 Deployed page:
